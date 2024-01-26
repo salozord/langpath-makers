@@ -1,5 +1,5 @@
 import TopicCard from './components/TopicCard';
-import topics from './utils/topics';
+import { topics } from './utils/topics';
 
 const Home = () => {
   

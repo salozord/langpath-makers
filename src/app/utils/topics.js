@@ -1,13 +1,13 @@
-export default topics = [
+const topics = [
     {
       id: 1,
       title: "business english",
       questions: [
-        "",
+        "asdfffa",
         "asdasd",
         "fgasgasfafasf"
       ],
-      route: "/business"
+      route: "business"
     },
     {
       id: 2,
@@ -17,6 +17,8 @@ export default topics = [
         "asdasd",
         "fgasgasfafasf"
       ],
-      route: "/vacation"
+      route: "vacation"
     }
-  ];
+];
+
+export { topics };
