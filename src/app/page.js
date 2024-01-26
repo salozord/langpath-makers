@@ -1,34 +1,15 @@
 import TopicCard from './components/TopicCard';
+import topics from './utils/topics';
 
 const Home = () => {
-  const topics = [
-    {
-      id: 1,
-      title: "business english",
-      questions: [
-        "asdasdasd",
-        "asdasd",
-        "fgasgasfafasf"
-      ],
-      route: "/business"
-    },
-    {
-      id: 1,
-      title: "vacation english",
-      questions: [
-        "asdasdasd",
-        "asdasd",
-        "fgasgasfafasf"
-      ],
-      route: "/vacation"
-    }
-  ];
-
+  
   return (
-    <div className="flex flex-col items-center justify-content mt-8">
-      {topics.map((topic) => (
-        <TopicCard key={topic.id} topic={topic} />
-      ))}
+    <div className="min-h-screen bg-gradient-to-r from-blue-400 via-blue-500 to-purple-500 flex items-center justify-center">
+      <div className="w-1/2">
+        {topics.map((topic) => (
+          <TopicCard key={topic.id} topic={topic} />
+        ))}
+      </div>
     </div>
   );
 };
