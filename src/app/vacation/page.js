@@ -2,4 +2,4 @@ const Vacation = () => {
     return (<></>);
 };
 
-export default Whatever;
+export default Vacation;

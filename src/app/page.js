@@ -1,4 +1,4 @@
-import TopicCard from '../components/TopicCard';
+import TopicCard from './components/TopicCard';
 
 const Home = () => {
   const topics = [
@@ -21,16 +21,6 @@ const Home = () => {
         "fgasgasfafasf"
       ],
       route: "/vacation"
-    },
-    {
-      id: 1,
-      title: "whatever english",
-      questions: [
-        "asdasdasd",
-        "asdasd",
-        "fgasgasfafasf"
-      ],
-      route: "/whatever"
     }
   ];
 

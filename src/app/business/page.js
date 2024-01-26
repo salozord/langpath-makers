@@ -6,4 +6,4 @@ const Business = ({ topic }) => {
     );
 };
 
-export default Whatever;
+export default Business;
